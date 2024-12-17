@@ -1,4 +1,4 @@
-const pool = require('../config/msdb'); // Adjust the path to your database connection file
+const pool = require('../config/mssdb'); // Adjust the path to your database connection file
 
 // Get all testimonials filtered by language
 exports.getAllTestimonials = async (req, res) => {
