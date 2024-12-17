@@ -1,5 +1,5 @@
 const sql = require('mssql');
-const pool = require('../config/msdb');
+const pool = require('../config/mssdb');
 const Joi = require('joi');
 
 // Define the validation schema using Joi with lowercase field names

@@ -1,5 +1,5 @@
 // backend/controllers/userController.js
-const pool = require('../config/msdb'); 
+const pool = require('../config/mssdb'); 
 
 // Get all users
 exports.getAllBlogs = async (req, res) => {
